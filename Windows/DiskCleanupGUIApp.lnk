@@ -1,0 +1,15 @@
+@echo off
+REM This is a Windows batch file that serves as a launcher
+REM In a real Windows deployment, this would be replaced with a proper .lnk shortcut file
+REM 
+REM To create a proper Windows shortcut (.lnk):
+REM 1. Right-click in Windows Explorer > New > Shortcut
+REM 2. Target: %windir%\System32\cmd.exe /c "cd /d %~dp0 && run.bat"
+REM 3. Name: DiskCleanupGUIApp
+REM 4. Icon: icon.ico (from this folder)
+REM 5. Start in: (this folder path)
+REM
+REM This batch file serves as a temporary substitute:
+
+echo Starting Disk Cleanup GUI App...
+call run.bat

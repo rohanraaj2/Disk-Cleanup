@@ -1,15 +1,59 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*# IMPORTANT: Platform-specific files are INCLUDED in this repository
+# The following files should be tracked:
+# - Windows/DiskCleanupGUIApp.lnk (our custom launcher)
+# - Windows/icon.ico (Windows icon)
+# - Linux/icon.png (Linux icon)
+# - macOS/DiskCleanupGUIApp.app/ (complete app bundle with internal icon)
+
+# Development fileso
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
-# Windows
+# Windows  
 Thumbs.db
-*.lnk
+Desktop.ini
+$RECYCLE.BIN/
 
-# Archives
+# IMPORTANT: Platform-specific files are INCLUDED in this repository
+# The following files should be tracked:
+# - Windows/DiskCleanupGUIApp.lnk (our custom launcher)
+# - Windows/icon.ico (Windows icon)
+# - Linux/icon.png (Linux icon)
+# - macOS/icon.icns (macOS icon)  
+# - macOS/DiskCleanupGUIApp.app/ (complete app bundle)
+
+# Development files
+*.swp
+*.swo
+*~
+
+# Archives (exclude compressed files)
 *.zip
 *.tar.gz
+*.rar
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Temporary files
+.tmp/
+temp/
