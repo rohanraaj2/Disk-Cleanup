@@ -1,0 +1,17 @@
+#!/bin/bash
+# macOS App Bundle Launcher for Disk Cleanup GUI
+
+# Get the directory of this script (inside the app bundle)
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+# Navigate to the parent directory of the macOS folder (where cleanup_gui.py is located)
+cd "$DIR/../../../.." || exit 1
+
+# Launch the Python GUI application
+python3 cleanup_gui.py
+
+# Keep terminal open if there's an error
+if [ $? -ne 0 ]; then
+    echo "Press any key to continue..."
+    read -n 1
+fi

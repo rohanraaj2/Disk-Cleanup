@@ -15,4 +15,6 @@ Requirements:
 
 The script will automatically navigate to the parent directory and run cleanup_gui.py
 
+Note: The icon.png file provides a visual icon for the desktop entry.
+
 For questions or issues, see README.md in the main directory.

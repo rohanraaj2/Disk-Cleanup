@@ -1,0 +1,14 @@
+# This is a placeholder icon file for Windows
+# In a real deployment, this would be replaced with a proper ICO file
+# The icon should represent disk cleanup (e.g., hard drive with cleaning symbols)
+# 
+# To create a proper Windows ICO icon, you can:
+# 1. Use GIMP with ICO plugin
+# 2. Use online ICO converters
+# 3. Use tools like IcoFX or Greenfish Icon Editor Pro
+#
+# Icon should contain multiple sizes: 16x16, 32x32, 48x48, 64x64 pixels
+# Format: Windows ICO with transparency support
+# Theme: Hard drive/disk with cleaning elements
+
+PLACEHOLDER_ICON=true

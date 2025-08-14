@@ -1,0 +1,14 @@
+# This is a placeholder icon file for macOS
+# In a real deployment, this would be replaced with a proper ICNS file
+# The icon should represent disk cleanup (e.g., hard drive with cleaning symbols)
+# 
+# To create a proper macOS ICNS icon, you can:
+# 1. Use Icon Composer (part of Xcode)
+# 2. Use Image2icon or other macOS icon tools
+# 3. Use iconutil command line tool: iconutil -c icns icon.iconset
+#
+# Icon should contain multiple sizes for Retina displays
+# Format: Apple ICNS with proper naming conventions
+# Theme: Hard drive/disk with cleaning elements
+
+PLACEHOLDER_ICON=true

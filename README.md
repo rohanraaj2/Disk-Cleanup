@@ -25,7 +25,8 @@ Disk-Cleanup/
 ├─ cleanup_gui.py
 ├─ Linux/
 ├─ Windows/
-└─ macOS/
+├─ macOS/
+└─ docs/
 ```
 
 ### Linux/
@@ -36,6 +37,7 @@ Contains launch scripts and files for Linux systems:
 Linux/
 ├─ run.sh
 ├─ UbuntuDiskCleanup.desktop
+├─ icon.png
 └─ README_LAUNCH_HERE.txt
 ```
 
@@ -46,6 +48,8 @@ Contains launch scripts and files for Windows systems:
 ```
 Windows/
 ├─ run.bat
+├─ DiskCleanupGUIApp.lnk
+├─ icon.ico
 └─ README_LAUNCH_HERE.txt
 ```
 
@@ -56,7 +60,7 @@ Contains launch scripts and files for macOS systems:
 ```
 macOS/
 ├─ run.command
-├─ Launch_Instructions.md
+├─ DiskCleanupGUIApp.app
 └─ README_LAUNCH_HERE.txt
 ```
 
@@ -90,13 +94,13 @@ cd Linux && ./run.sh
 cd macOS && ./run.command
 ```
 
-Or double-click `UbuntuDiskCleanup.desktop` on Linux (after copying to desktop).
+Or double-click `UbuntuDiskCleanup.desktop` on Linux or `DiskCleanupGUIApp.app` on macOS.
 
 ### Windows
 
 1. Clone or download the repository.
 2. Ensure Python 3 and tkinter are installed.
-3. Navigate to the Windows folder and double-click `run.bat` to launch.
+3. Navigate to the Windows folder and double-click `DiskCleanupGUIApp.lnk` or `run.bat` to launch.
 
 ---
 

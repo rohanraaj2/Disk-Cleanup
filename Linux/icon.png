@@ -1,0 +1,13 @@
+# This is a placeholder icon file for Linux
+# In a real deployment, this would be replaced with a proper 64x64 PNG icon
+# The icon should represent disk cleanup (e.g., hard drive with cleaning symbols)
+# 
+# To create a proper icon, you can:
+# 1. Use GIMP, Inkscape, or other image editors
+# 2. Use online icon generators
+# 3. Convert from SVG using ImageMagick: convert icon.svg -resize 64x64 icon.png
+#
+# Icon should be 64x64 pixels, PNG format, with transparency support
+# Theme: Hard drive/disk with cleaning elements (sparkles, broom, etc.)
+
+PLACEHOLDER_ICON=true
