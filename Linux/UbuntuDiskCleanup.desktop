@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Ubuntu Disk Cleanup
+Comment=Portable disk cleanup wizard
+Exec=./run.sh
+Icon=./icon.png
+Terminal=true
+Type=Application

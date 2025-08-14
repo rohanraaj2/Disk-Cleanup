@@ -1,4 +1,4 @@
-# DiskCleanupGUIApp
+# Disk-Cleanup
 
 Cross-platform GUI disk cleanup tool for Linux, Windows, and macOS.
 
@@ -6,7 +6,7 @@ Cross-platform GUI disk cleanup tool for Linux, Windows, and macOS.
 
 ## Overview
 
-DiskCleanupGUIApp is a portable, interactive disk cleanup tool with a visual GUI. It works across Linux, Windows, and macOS and can run directly from a USB drive without installation. The tool provides:
+Disk-Cleanup is a portable, interactive disk cleanup tool with a visual GUI. It works across Linux, Windows, and macOS and can run directly from a USB drive without installation. The tool provides:
 
 * Visual disk usage summary
 * Interactive deletion of large folders/files
@@ -19,52 +19,44 @@ DiskCleanupGUIApp is a portable, interactive disk cleanup tool with a visual GUI
 ## Repository Structure
 
 ```
-DiskCleanupGUIApp/
+Disk-Cleanup/
 ├─ README.md
 ├─ LICENSE
-├─ .gitignore
+├─ cleanup_gui.py
 ├─ Linux/
 ├─ Windows/
-├─ macOS/
-└─ docs/
+└─ macOS/
 ```
 
 ### Linux/
 
-Contains scripts and files for Linux systems:
+Contains launch scripts and files for Linux systems:
 
 ```
 Linux/
-├─ cleanup_gui.py
 ├─ run.sh
 ├─ UbuntuDiskCleanup.desktop
-├─ icon.png
 └─ README_LAUNCH_HERE.txt
 ```
 
 ### Windows/
 
-Contains scripts and files for Windows systems:
+Contains launch scripts and files for Windows systems:
 
 ```
 Windows/
-├─ cleanup_gui.py
 ├─ run.bat
-├─ DiskCleanupGUIApp.lnk
-├─ icon.ico
 └─ README_LAUNCH_HERE.txt
 ```
 
 ### macOS/
 
-Contains scripts and files for macOS systems:
+Contains launch scripts and files for macOS systems:
 
 ```
 macOS/
-├─ cleanup_gui.py
 ├─ run.command
-├─ DiskCleanupGUIApp.app
-├─ icon.icns
+├─ Launch_Instructions.md
 └─ README_LAUNCH_HERE.txt
 ```
 
@@ -72,37 +64,39 @@ macOS/
 
 Optional folder for documentation, screenshots, or diagrams.
 
+**Main Application:** The main GUI application `cleanup_gui.py` is located in the root directory and is shared across all platforms.
+
 ---
 
 ## Installation
 
 ### Linux/macOS
 
-1. Extract the `Linux` or `macOS` folder from the repository.
-2. Ensure Python 3 is installed.
+1. Clone or download the repository.
+2. Ensure Python 3 and tkinter are installed.
 3. Make scripts executable if necessary:
 
 ```bash
-chmod +x run.sh
-chmod +x run.command
+chmod +x Linux/run.sh
+chmod +x macOS/run.command
 ```
 
 4. Launch:
 
 ```bash
 # Linux
-./run.sh
+cd Linux && ./run.sh
 # macOS
-./run.command
+cd macOS && ./run.command
 ```
 
-Or double-click `UbuntuDiskCleanup.desktop` on Linux or `DiskCleanupGUIApp.app` on macOS.
+Or double-click `UbuntuDiskCleanup.desktop` on Linux (after copying to desktop).
 
 ### Windows
 
-1. Extract the `Windows` folder from the repository.
-2. Ensure Python 3 is installed.
-3. Double-click `DiskCleanupGUIApp.lnk` to launch.
+1. Clone or download the repository.
+2. Ensure Python 3 and tkinter are installed.
+3. Navigate to the Windows folder and double-click `run.bat` to launch.
 
 ---
 
